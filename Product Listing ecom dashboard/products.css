@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+* {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#listing{
+    background-color: #000;
+    color: #f5f5f5;
+    padding: 0.6rem 0.9rem;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    position: fixed;
+    top: 2%;
+    right: 87%;
+    font-size: 0.7rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+  }
+
+h1 {
+  width: 25%;
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  border-bottom: 4px solid #000000;
+}
+
+#container {
+  width: 95%;
+  margin: 4rem auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.left-side {
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  row-gap: 3rem;
+  column-gap: 1.2rem;
+}
+.right-side {
+  width: 20%;
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.product > div:nth-child(1) {
+  height: 60%;
+}
+.product img {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#contentBox > h4,
+#contentBox > p {
+  text-align: center;
+  padding: 10px 1rem;
+}
+#contentBox > div:nth-child(3) {
+  padding: 10px 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product > #btnBox {
+  padding: 10px 0.8rem 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  font-size: 0.7rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  outline: unset;
+  border: unset;
+  padding: 9px 1rem;
+  color: #ffff;
+  background-color: #000;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.right-side > #total_price {
+  border: 2px solid #8f8f8f;
+  text-transform: uppercase;
+  padding: 1rem;
+  line-height: 2rem;
+  width: 90%;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+p {
+  font-weight: 400;
+}
+.right-side p {
+  color: slateblue;
+  font-weight: 900;
+}
