@@ -21,6 +21,7 @@
 ## Product Listing Page
 #### For layout, grid is utilised.
 #### Additionally, autofill property of grid-template-coloumn is utilised to provide a in-built media querries effect even without using media querries inside the html file.
+#### On clicking the sold button, it toggles into available and sold simultaneously colors also get change.
 
 ![alt text](https://bit.ly/3jooHW9)
 
